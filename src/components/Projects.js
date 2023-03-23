@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/mockup-nina-nails.png";
@@ -15,7 +15,7 @@ export const Projects = () => {
       title: "Projet site vitrine prothésiste ongulaire (REACT)",
       description: "Février 2022",
       imgUrl: projImg1,
-      link : "https://nina-nails-project.netlify.app/",
+      link: "https://nina-nails-project.netlify.app/",
     },
     {
       title: "Projet site vitrine associatif refuge animalier (REACT)",
@@ -39,7 +39,7 @@ export const Projects = () => {
       title: "Projet site vitrine salon de coiffure (Odoo)",
       description: "Mars 2023",
       imgUrl: projImg5,
-      link: "https://anna1.odoo.com/",
+      link: "https://anna10.odoo.com/",
     },
   ];
 
@@ -74,7 +74,6 @@ export const Projects = () => {
                             return <ProjectCard key={index} {...project} />;
                           })}
                         </Row>
-                        
                       </Tab.Pane>
                     </Tab.Content>
                   </Tab.Container>
