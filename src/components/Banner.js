@@ -12,7 +12,7 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) => (
-                <div>
+                <div className='text-part1'>
                   <span className="tagline">Bienvenue sur mon portfolio</span>
                   <h1>
                     {`Bonjour! Je suis Gaëlle`}
@@ -22,13 +22,14 @@ export const Banner = () => {
                     Développeuse web passionnée, je crois que chaque entreprise
                     mérite un site web incroyable. Si vous cherchez à donner vie
                     à vos idées et à impressionner vos clients, vous êtes au bon
-                    endroit ! <br /> Que vous ayez besoin d'un site vitrine pour votre entreprise, d'un site e-commerce pour vendre vos produits en ligne ou de maintenance, je suis là pour
-                    vous aider. <br /> Je suis déterminée à réussir et à offrir le
+                    endroit ! <br /> <br />  Que vous ayez besoin d'un site vitrine pour votre entreprise, d'un site e-commerce pour vendre vos produits en ligne ou de maintenance, je suis là pour
+                    vous aider. Je suis déterminée à réussir et à offrir le
                     meilleur service possible, mon objectif est de transformer
                     votre vision en réalité. Alors, qu'attendez-vous pour faire
                     équipe avec moi ?
                   </p>
-                </div>
+                  </div>
+
               )}
             </TrackVisibility>
           </Col>
