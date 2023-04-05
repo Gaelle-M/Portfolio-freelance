@@ -3,6 +3,7 @@ import meter1 from "../assets/img/skill1.png";
 import meter2 from "../assets/img/skill2.png";
 import meter3 from "../assets/img/skill3.png";
 import meter4 from "../assets/img/skill4.png";
+import meter5 from "../assets/img/skill5.png";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../assets/img/color-sharp.png"
@@ -53,9 +54,15 @@ export const Skills = () => {
                             </div>
 
                             <div className="item">
+                                <img src={meter5} alt="Illustration de réseaux sociaux" />
+                                <h5>Création de réseaux sociaux</h5>
+                            </div>
+
+                            <div className="item">
                                 <img src={meter3} alt="Illustration de plusieurs formats d'écran" />
                                 <h5>100% Responsive</h5>
                             </div>
+
                         </Carousel>
                     </div>
                 </div>

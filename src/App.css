@@ -369,6 +369,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     font-size: 15px;
   }
 }
+.banner .text2 {
+  display: none;
+}
+@media screen and (max-width:769px) {
+  .banner .text2 {
+    display: block;
+  }
+}
+@media screen and (max-width:769px) {
+  .banner .text1 {
+    display: none;
+  }
+}
 
 .banner img {
   animation: updown 5s linear infinite;
@@ -402,10 +415,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill {
   padding: 0 0 50px 0;
   position: relative;
+  background: rgba(124, 120, 120, 0.235);
 }
 
 .skill-bx {
-  background: #0a0a0ae0;
+  background: #0a0a0af4;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -448,17 +462,58 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill h5 {
   font-size: 15px;
 }
+@media screen and (max-width:1025px) {
+  .skill h5 {
+    font-size: 14px;
+  }
+}
 
 .skill-slider {
-  width: 80%;
+  width: 95%;
   margin: 0 auto;
   position: relative;
+}
+@media screen and (max-width:1025px) {
+  .skill-slider {
+    width: 95%;
+  }
+}
+@media screen and (max-width:992px) {
+  .skill-slider {
+    width: 85%;
+  }
+}
+@media screen and (max-width:768px) {
+  .skill-slider {
+    width: 95%;
+  }
 }
 
 .skill-slider .item img {
   width: 80%;
   margin: 0 auto 15px auto;
 }
+@media screen and (max-width:1025px) {
+  .skill-slider .item img{
+    width: 65%;
+  }
+}
+@media screen and (max-width:992px) {
+  .skill-slider .item img{
+    width: 80%;
+  }
+}
+@media screen and (max-width:768px) {
+  .skill-slider .item img{
+    width: 95%;
+  }
+}
+@media screen and (max-width:465px) {
+  .skill-slider .item img{
+    width: 75%;
+  }
+}
+
 
 .background-image-left {
   top: 28%;
