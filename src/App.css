@@ -86,7 +86,6 @@ nav.navbar {
   width: 100%;
   top: 0;
   z-index: 9999;
-  transition:  0.5s ease-in-out;
 }
 
 nav.navbar.scrolled {
@@ -384,7 +383,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .banner img {
-  animation: updown 5s linear infinite;
+  animation: updown 5s ease-in-out infinite;
   width: 90%;
 }
 @media screen and (max-width:992px) {
@@ -404,7 +403,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
         transform: translateY(-20px);
     }
     50% {
-        transform: translateY(20px);
+        transform: translateY(50px);
     }
     100% {
         transform: translateY(-20px);
