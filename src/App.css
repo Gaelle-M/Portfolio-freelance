@@ -799,6 +799,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .prestations .presta-container article p {
   word-spacing: 0px;
   margin: 10px 20px 25px;
+  color: rgba(0, 0, 0, 0.856);
 }
 @media screen and (max-width:370px) {
   .prestations .presta-container article p {
@@ -810,6 +811,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   margin: 20px auto 30px;
   font-size: 16px;
+  color: rgba(0, 0, 0, 0.856);
 }
 
 @media screen and (max-width: 720px) {
@@ -831,6 +833,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   padding: 60px 0 200px 0;
+  border: 2px solid red;
 }
 
 .contact img {
