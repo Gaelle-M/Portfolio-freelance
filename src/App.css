@@ -32,7 +32,6 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background: #121212;
   color: #fff;
 }
 
@@ -739,6 +738,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /********** Prestations **************/
 .prestations {
   background: white;
+  margin-bottom: 40px;
 }
 
 .prestations h2 {
