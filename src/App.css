@@ -731,7 +731,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /********** Prestations **************/
 .prestations {
-  margin-bottom: 30px;
+  background: white;
 }
 
 .prestations h2 {
