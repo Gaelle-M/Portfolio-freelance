@@ -30,7 +30,7 @@ export const Projects = () => {
       link: "https://techco.odoo.com/",
     },
     {
-      title: "Projet site vitrine produits de beauté (REACT)",
+      title: "Projet site vitrine de produits de beauté (REACT)",
       description: "Février 2023",
       imgUrl: projImg4,
       link: "https://dy-na.netlify.app/",

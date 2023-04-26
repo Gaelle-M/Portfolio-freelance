@@ -59,6 +59,9 @@ export const Formulaire = () => {
             
           <div className="form-container">
             <h2>Me contacter</h2>
+            <p className="para-contact">
+              Si vous souhaitez demander un devis, veuillez me détailler un maximum votre projet.
+            </p>
             <form ref={form} onSubmit={sendEmail}>
               
               {/* **nom** */}

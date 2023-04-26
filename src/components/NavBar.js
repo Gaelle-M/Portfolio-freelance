@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from "../assets/img/logo.png";
@@ -42,6 +42,7 @@ export const NavBar = () => {
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
+              <div className="left-part-responsive">
               {/********* réglages liens home **********/}
               <Nav.Link
                 href="#home"
@@ -63,7 +64,9 @@ export const NavBar = () => {
               >
                 Compétences
               </Nav.Link>
+              </div>
 
+                <div className="right-part-responsive">
               {/********** Réglage lien projects *********/}
               <Nav.Link
                 href="#projects"
@@ -76,6 +79,20 @@ export const NavBar = () => {
               >
                 Projets
               </Nav.Link>
+
+              {/********** Réglage lien prestations *********/}
+              <Nav.Link
+                href="#prestations"
+                className={
+                  activeLink === "prestations"
+                    ? "active navbar-link"
+                    : "navbar-link"
+                }
+                onClick={() => onUpdateActiveLink("prestations")}
+              >
+                Prestations
+              </Nav.Link>
+              </div>
             </Nav>
 
             <span className="navbar-text">

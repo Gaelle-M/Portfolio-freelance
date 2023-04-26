@@ -44,6 +44,7 @@ export const Footer = () => {
           </Col>
         </Row>
       </Container>
+             <p className='copyright'>Copyright (c) 2023 judygab</p>
     </footer>
   );
 };

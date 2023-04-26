@@ -4,6 +4,7 @@ import meter2 from "../assets/img/skill2.png";
 import meter3 from "../assets/img/skill3.png";
 import meter4 from "../assets/img/skill4.png";
 import meter5 from "../assets/img/skill5.png";
+import meter6 from "../assets/img/skill6.png";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../assets/img/color-sharp.png"
@@ -37,10 +38,17 @@ export const Skills = () => {
                     <div className="skill-bx wow zoomIn">
                         <h2>Compétences</h2>
                         <h4>Des prestations adaptées à vos besoins</h4>
+
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                          
                             <div className="item">
-                                <img src={meter1} alt="Illustration de site weben création" />
-                                <h5>Intégration site vitrine / Refonte partielle ou complète</h5>
+                                <img src={meter1} alt="Illustration de sites web création" />
+                                <h5>Création site vitrine / Refonte partielle ou complète</h5>
+                            </div>
+
+                            <div className="item">
+                                <img src={meter6} alt="Illustration de location de sites web" />
+                                <h5>Location de sites web</h5>
                             </div>
 
                             <div className="item">
