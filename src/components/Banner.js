@@ -37,7 +37,7 @@ export const Banner = () => {
                   </div>
                   <div className="text2">
                     <p>
-                      Développeuse web passionnée, j'estime que chaque
+                      J'estime que chaque
                       entreprise mérite un site web incroyable. Si vous cherchez
                       à donner vie à vos idées et à impressionner vos clients,
                       vous êtes au bon endroit !
