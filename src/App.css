@@ -75,8 +75,10 @@ input:focus, textarea:focus, select:focus {
 summary {
   font-style: italic;
   font-size: 14px;
-  margin: 20px 0;
+  margin: 15px 0;
 }
+
+
 p.success {
 	color: rgba(90, 232, 90, 0.902);
 }
