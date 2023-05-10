@@ -12,10 +12,10 @@ import TrackVisibility from "react-on-screen";
 export const Projects = () => {
   const projects = [
     {
-      title: "Projet site vitrine prothésiste ongulaire (REACT)",
-      description: "Février 2022",
-      imgUrl: projImg1,
-      link: "https://nina-nails-project.netlify.app/",
+      title: "Projet site vitrine salon de coiffure (Odoo)",
+      description: "Mars 2023",
+      imgUrl: projImg5,
+      link: "https://anna10.odoo.com/",
     },
     {
       title: "Projet site vitrine associatif refuge animalier (REACT)",
@@ -36,10 +36,10 @@ export const Projects = () => {
       link: "https://dy-na.netlify.app/",
     },
     {
-      title: "Projet site vitrine salon de coiffure (Odoo)",
-      description: "Mars 2023",
-      imgUrl: projImg5,
-      link: "https://anna10.odoo.com/",
+      title: "Projet site vitrine prothésiste ongulaire (REACT)",
+      description: "Février 2022",
+      imgUrl: projImg1,
+      link: "https://nina-nails-project.netlify.app/",
     },
   ];
 
@@ -77,6 +77,7 @@ export const Projects = () => {
                       </Tab.Pane>
                     </Tab.Content>
                   </Tab.Container>
+                  <button className='button-projects'><a href="#connect">Contactez-moi</a></button>
                 </div>
               )}
             </TrackVisibility>

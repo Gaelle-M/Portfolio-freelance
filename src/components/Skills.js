@@ -75,6 +75,7 @@ export const Skills = () => {
                     </div>
                 </div>
             </div>
+            <button className='button-skills'><a href="#connect">Contactez-moi</a></button>
         </div>
         <img className="background-image-left" src={colorSharp} alt="style de l'arrière plan" />
     </section>

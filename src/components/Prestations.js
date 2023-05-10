@@ -12,7 +12,7 @@ const Prestations = () => {
             Cette prestation vous permet de disposer rapidement d'un site
             internet professionnel sans avoir à investir dès le départ et ainsi
             préserver votre trésorerie. <br />À partir de{" "}
-            <strong>45€/mois</strong> pendant 1an.
+            <strong>49€/mois</strong> pendant 1an.
             <details>
               <summary>Voir les détails de l'offre...</summary>
               Prestations comprises dans l'offre :
@@ -44,9 +44,9 @@ const Prestations = () => {
             <details>
               <summary>Voir les détails de l'offre...</summary>
               3 prestations différentes : <br /> <br />○ Site one page à partir
-              de <strong>480€</strong> <br />○ Site vitrine à partir de{" "}
-              <strong>850€</strong> <br />○ Site e-commerce à partir de{" "}
-              <strong>1300€</strong> <br /> <br />
+              de <strong>500€</strong> <br />○ Site vitrine à partir de{" "}
+              <strong>900€</strong> <br />○ Site e-commerce à partir de{" "}
+              <strong>2100€</strong> <br /> <br />
               Je travaille avec vous pour comprendre vos besoins spécifiques et
               concevoir un site web qui reflète l'identité de votre entreprise
               ou de votre marque.
@@ -66,10 +66,9 @@ const Prestations = () => {
             améliorations de contenu.
             <details>
               <summary>Voir les détails de l'offre...</summary>
-              2 forfaits différents : <br /> <br />○ Forfait 1 = Mises à jour du
-              contenu (ajout ou modification) <strong>25€</strong>
-              <br />○ Forfait 2 = Optimisation SEO (suivi du trafic et des
-              performances du site) <strong>35€</strong>
+              2 forfaits différents : <br /> <br />
+              ○ Forfait 1 = Mises à jour du contenu (ajout ou modification), à partir de <strong>300€</strong><br />
+              ○ Forfait 2 = Optimisation SEO (suivi du trafic et des performances du site), à partir de <strong>500€</strong>
             </details>
           </p>
         </article>
@@ -86,10 +85,10 @@ const Prestations = () => {
             présence en ligne.
             <details>
               <summary>Voir les détails de l'offre...</summary>
-              3 forfaits différents : <br /> <br />○ Forfait 1 = 1 à 3 réseaux à
-              partir de <strong>18€</strong> <br />○ Forfait 2 = 4 à 5 réseaux à
-              partir de <strong>28€</strong> <br />○ Forfait 3 = Plus de 5
-              réseaux à partir de <strong>38€</strong> <br /> <br />
+              3 forfaits différents : <br /> <br />
+              ○ Forfait 1 = 1 à 3 réseaux à partir de <strong>40€</strong> <br />
+              ○ Forfait 2 = 4 à 5 réseaux à partir de <strong>110€</strong> <br />
+              ○ Forfait 3 = Plus de 5 réseaux à partir de <strong>150€</strong> <br /> <br />
               Cette prestation comprend la création des réseaux sociaux que vous
               désirez, l'insertion des photos de profils et bannières, votre
               biographie ainsi que la complétion des différentes rubriques du
@@ -100,7 +99,7 @@ const Prestations = () => {
       </div>
       <p className="newsletter-link">
         {" "}
-        Pour en savoir plus sur les tarifs des prestations, vous pouvez demander un devis via <a href="#connect"><strong>le formulaire.</strong></a> 
+       <a href="#connect"><button className="presta-button">Contactez-moi</button></a> 
      </p>
     </div>
   );
